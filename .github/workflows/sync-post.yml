@@ -46,7 +46,7 @@ jobs:
         run: |
           yarn sync-post
           git remote -v
-          git config list
+          git config --list
           git add .
           git commit -m 'chore(ci): blog sync'
           git push https://${GH_TOKEN}@github.com/${GH_USER}/blog.git
