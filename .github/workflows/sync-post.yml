@@ -28,7 +28,7 @@ jobs:
 
       - name: Git config 🔧
         run: |
-          git config --global user.name "${GH_USER}"
+          git config --global user.name "YeziGZ"
           git config --global user.email "yefang811@foxmail.com"
 
       - name: Display runtime info ✨
@@ -49,4 +49,4 @@ jobs:
           git config --list
           git add .
           git commit -m 'chore(ci): blog sync'
-          git push https://${GH_TOKEN}@github.com/${GH_USER}/blog.git
+          git push https://${{ secrets.GH_TOKEN }}@github.com/YeziGZ/blog.git
