@@ -45,8 +45,6 @@ jobs:
       - name: Update blog files ⛏️
         run: |
           yarn sync-post
-          git remote -v
-          git config --list
           git add .
           git commit -m 'chore(ci): blog sync'
-          git push https://${{ secrets.GH_TOKEN }}@github.com/YeziGZ/blog.git
+          git push
