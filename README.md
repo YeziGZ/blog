@@ -2,7 +2,7 @@
 
 My blog
 
-- https://www.yezi.com
+- https://www.isanote.com
 
 ## 介绍
 
@@ -10,4 +10,4 @@ My blog
 
 ## Related
 
-- [yezi.com](https://yezi.com)
+- [isanote.com](https://isanote.com)

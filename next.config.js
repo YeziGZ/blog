@@ -9,7 +9,7 @@ module.exports = withContentlayer()({
       'cdn.nlark.com',
       'wpimg.wallstcn.com',
       'github.com',
-      'yezi.com',
+      'isanote.com',
       'ww1.sinaimg.cn',
     ],
     formats: ['image/avif', 'image/webp'],

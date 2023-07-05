@@ -9,7 +9,7 @@ const links = [
   { name: 'Home', path: '/' },
   { name: 'About', path: '/about' },
   { name: 'Blog', path: '/blog' },
-  { name: 'Map', path: 'http://map.yezi.com', target: '_blank' },
+  { name: 'Map', path: 'http://map.isanote.com', target: '_blank' },
 ]
 
 const Header = (): JSX.Element => {

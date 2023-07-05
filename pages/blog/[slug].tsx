@@ -95,7 +95,7 @@ const Post = ({ post, related, githubUser, githubProject }: PostProps): JSX.Elem
 
   const seoTitle = `${post.title} | Isabella`
   const seoDesc = `${post.summary}`
-  const url = `https://yezi.com/blog/${post.slug}`
+  const url = `https://isanote.com/blog/${post.slug}`
 
   return (
     <Page>
@@ -110,7 +110,7 @@ const Post = ({ post, related, githubUser, githubProject }: PostProps): JSX.Elem
           images: [
             {
               url: post.og
-                ? `https://yezi.com${post.og}`
+                ? `https://isanote.com${post.og}`
                 : `https://og-image.yezi.vercel.app/${encodeURIComponent(post.title)}?desc=${encodeURIComponent(seoDesc)}&theme=dark.png`,
               alt: post.title,
             },
@@ -120,7 +120,7 @@ const Post = ({ post, related, githubUser, githubProject }: PostProps): JSX.Elem
           article: {
             publishedTime: post.publishedAt,
             modifiedTime: post.updatedAt,
-            authors: ['https://yezi.com'],
+            authors: ['https://isanote.com'],
           },
         }}
         twitter={{
@@ -185,7 +185,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const { GH_USER = 'yezi', GH_PROJECT_NAME = 'blog' } = process.env
+  const { GH_USER = 'YeziGZ', GH_PROJECT_NAME = 'blog' } = process.env
   const post = allPosts.find(p => p.slug === params?.slug)
   const related = allPosts
     /* remove current post */

@@ -23,8 +23,8 @@ export default class MyDocument extends Document {
             }}
           />
           <meta name="google-site-verification" content="JPPz1wsoh_EhDrgTk6InHZrGEricNOa6zDJCTbIxe20" />
-          <link rel="webmention" href="https://webmention.io/yezi.com/webmention" />
-          <link rel="pingback" href="https://webmention.io/yezi.com/xmlrpc" />
+          <link rel="webmention" href="https://webmention.io/isanote.com/webmention" />
+          <link rel="pingback" href="https://webmention.io/isanote.com/xmlrpc" />
           <link href="https://github.com/yezi" rel="me" />
         </Head>
         <body>

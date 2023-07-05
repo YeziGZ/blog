@@ -17,8 +17,8 @@ const About = (): JSX.Element => {
         title={seoTitle}
         openGraph={{
           title: seoTitle,
-          url: `https://yezi.com/about/`,
-          site_name: 'yezi.com',
+          url: `https://isanote.com/about/`,
+          site_name: 'isanote.com',
         }}
         twitter={{
           cardType: 'summary_large_image',
@@ -36,24 +36,15 @@ const About = (): JSX.Element => {
         <p>
           <ul>
             <li>
-              <a href="https://github.com/yezi/" {...linkProps}>
+              <a href="https://github.com/YeziGZ/" {...linkProps}>
                 Github
               </a>
             </li>
-            <li>
-              <a href="https://www.zhihu.com/people/yezi/" {...linkProps}>
-                知乎
-              </a>
-            </li>
-            <li>
-              <a href="https://www.twitter.com/nickbinglao/" {...linkProps}>
-                Twitter
-              </a>
-            </li>
+           
           </ul>
         </p>
       </div>
-      <Button href="mailto:yezi@outlook.com">联系我</Button>
+      <Button href="mailto:yefang811@foxmail.com">联系我</Button>
     </Page>
   )
 }

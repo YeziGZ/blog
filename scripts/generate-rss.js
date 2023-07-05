@@ -7,8 +7,8 @@ const matter = require('gray-matter')
 async function generate() {
   const feed = new RSS({
     title: 'Isabella',
-    site_url: 'https://yezi.com',
-    feed_url: 'https://yezi.com/feed.xml',
+    site_url: 'https://isanote.com',
+    feed_url: 'https://isanote.com/feed.xml',
   })
 
   const posts = await fs.readdir(path.join(__dirname, '..', 'data', 'blog'))
@@ -20,7 +20,7 @@ async function generate() {
 
       feed.item({
         title: frontmatter.data.title,
-        url: 'https://yezi.com/blog/' + name.replace(/\.mdx?/, ''),
+        url: 'https://isanote.com/blog/' + name.replace(/\.mdx?/, ''),
         date: frontmatter.data.publishedAt,
         description: frontmatter.data.summary,
       })

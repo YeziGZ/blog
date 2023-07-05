@@ -11,13 +11,10 @@ type PageProps = {
 const footerLinks = [
   { name: 'Home', url: '/' },
   { name: 'GitHub', url: 'https://github.com/YeziGZ', target: '_blank' },
-  { name: '旅游地图', url: 'http://map.yezi.com', target: '_blank' },
-
+  { name: '旅游地图', url: 'http://map.isanote.com', target: '_blank' },
   { name: 'Blog', url: '/blog' },
   { name: '语雀', url: 'https://www.yuque.com/yezi', target: '_blank' },
-  { name: '知乎', url: 'https://www.zhihu.com/people/yezi', target: '_blank' },
   { name: 'About', url: '/about' },
-  { name: '微博', url: 'https://weibo.com/yezi', target: '_blank' },
   { name: 'RSS', url: '/feed.xml', target: '_blank' },
 ]
 
