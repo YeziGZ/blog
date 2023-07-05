@@ -40,7 +40,6 @@ const About = (): JSX.Element => {
                 Github
               </a>
             </li>
-           
           </ul>
         </p>
       </div>
