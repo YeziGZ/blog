@@ -32,7 +32,7 @@ const Blog = ({ posts, tagList }: BlogProps): JSX.Element => {
     debounce((value: string) => gtag.search(value), 500),
     [],
   )
-  const seoTitle = 'Blog | Isabella'
+  const seoTitle = 'Blog | Yezi'
   const seoDesc = '用心生活，佛系记录。'
   const filteredPosts = posts
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
@@ -56,9 +56,9 @@ const Blog = ({ posts, tagList }: BlogProps): JSX.Element => {
         description={seoDesc}
         openGraph={{
           title: seoTitle,
-          url: `https://isanote.com/blog/`,
+          url: `https://yezinote.com/blog/`,
           description: seoDesc,
-          site_name: 'yezi | Isabella',
+          site_name: 'yezi | Yezi',
         }}
         twitter={{
           cardType: 'summary_large_image',

@@ -9,7 +9,7 @@ const links = [
   { name: 'Home', path: '/' },
   { name: 'About', path: '/about' },
   { name: 'Blog', path: '/blog' },
-  { name: 'Map', path: 'http://map.isanote.com', target: '_blank' },
+  { name: 'Map', path: 'http://map.yezinote.com', target: '_blank' },
 ]
 
 const Header = (): JSX.Element => {
@@ -21,7 +21,7 @@ const Header = (): JSX.Element => {
         <div className={styles.container}>
           <Link href="/">
             <a className={styles.logo}>
-              <Image src={avatar} alt="Isabella" layout="fixed" width="45" height="45" priority placeholder="blur" />
+              <Image src={avatar} alt="Yezi" layout="fixed" width="45" height="45" priority placeholder="blur" />
             </a>
           </Link>
           <nav className={styles.nav}>

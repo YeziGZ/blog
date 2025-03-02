@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://isanote.com/sitemap.xml
+Sitemap: https://yezinote.com/sitemap.xml

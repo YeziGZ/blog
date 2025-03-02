@@ -10,21 +10,21 @@ const About = (): JSX.Element => {
     target: '_blank',
     rel: 'noopener noreferrer',
   }
-  const seoTitle = 'About Isabella'
+  const seoTitle = 'About Yezi'
   return (
     <Page>
       <NextSeo
         title={seoTitle}
         openGraph={{
           title: seoTitle,
-          url: `https://isanote.com/about/`,
-          site_name: 'isanote.com',
+          url: `https://yezinote.com/about/`,
+          site_name: 'yezinote.com',
         }}
         twitter={{
           cardType: 'summary_large_image',
         }}
       />
-      <Image src={me} alt="Picture of me (Isabella)" placeholder="blur" className={styles.image} priority />
+      <Image src={me} alt="Picture of me (Yezi)" placeholder="blur" className={styles.image} priority />
       <div className={styles.text}>
         <p>野子是半撇私塾的课程运营总监。她是中国职场知识社群品牌及活动负责人，泛新媒体社群「MediaHack」 发起人。</p>
 

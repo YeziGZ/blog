@@ -93,9 +93,9 @@ const Post = ({ post, related, githubUser, githubProject }: PostProps): JSX.Elem
       })
     : null
 
-  const seoTitle = `${post.title} | Isabella`
+  const seoTitle = `${post.title} | Yezi`
   const seoDesc = `${post.summary}`
-  const url = `https://isanote.com/blog/${post.slug}`
+  const url = `https://yezinote.com/blog/${post.slug}`
 
   return (
     <Page>
@@ -110,17 +110,17 @@ const Post = ({ post, related, githubUser, githubProject }: PostProps): JSX.Elem
           images: [
             {
               url: post.og
-                ? `https://isanote.com${post.og}`
+                ? `https://yezinote.com${post.og}`
                 : `https://og-image.yezi.vercel.app/${encodeURIComponent(post.title)}?desc=${encodeURIComponent(seoDesc)}&theme=dark.png`,
               alt: post.title,
             },
           ],
-          site_name: 'yezi | Isabella',
+          site_name: 'yezi',
           type: 'article',
           article: {
             publishedTime: post.publishedAt,
             modifiedTime: post.updatedAt,
-            authors: ['https://isanote.com'],
+            authors: ['https://yezinote.com'],
           },
         }}
         twitter={{
