@@ -23,9 +23,9 @@ export async function getStaticProps() {
   }
 }
 
-const headerTitle = '你好，我叫 叶子 ！'
+const headerTitle = 'Hello，这里是野子Yezi的网站，目标是把学习、个人成长、职业发展、AI等内容分享在这里 ！'
 
-const headerDescription = '用心生活，佛系记录。'
+const headerDescription = '用心生活，用心分享。'
 
 const Home = (): JSX.Element => (
   <Page>
