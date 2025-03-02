@@ -2,8 +2,7 @@ import { DefaultSeo } from 'next-seo'
 
 const config = {
   title: '野子的百宝箱',
-  description:
-    'Yezi的百宝箱',
+  description: 'Yezi的百宝箱',
   openGraph: {
     type: 'website',
     locale: 'zh_CN',
